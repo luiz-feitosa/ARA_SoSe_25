@@ -1076,7 +1076,6 @@
       <a name="label" val="~Q"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="4" loc="(120,250)" name="S-R Flip-Flop"/>
   </circuit>
   <circuit name="RS-Flipflop mit Pegelsteuerung (Kap. 3, S. 30)">
     <a name="circuit" val="RS-Flipflop mit Pegelsteuerung (Kap. 3, S. 30)"/>
@@ -1642,6 +1641,70 @@
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
+    </comp>
+  </circuit>
+  <circuit name="Übungsblatt 2, Aufgabe 2">
+    <a name="circuit" val="Übungsblatt 2, Aufgabe 2"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(70,80)" to="(70,210)"/>
+    <wire from="(70,80)" to="(120,80)"/>
+    <wire from="(90,40)" to="(90,250)"/>
+    <wire from="(70,210)" to="(110,210)"/>
+    <wire from="(280,110)" to="(280,140)"/>
+    <wire from="(280,180)" to="(280,210)"/>
+    <wire from="(170,230)" to="(210,230)"/>
+    <wire from="(190,60)" to="(190,90)"/>
+    <wire from="(60,40)" to="(90,40)"/>
+    <wire from="(90,250)" to="(120,250)"/>
+    <wire from="(280,140)" to="(300,140)"/>
+    <wire from="(280,180)" to="(300,180)"/>
+    <wire from="(260,210)" to="(280,210)"/>
+    <wire from="(350,160)" to="(370,160)"/>
+    <wire from="(90,40)" to="(110,40)"/>
+    <wire from="(170,60)" to="(190,60)"/>
+    <wire from="(190,90)" to="(210,90)"/>
+    <wire from="(190,190)" to="(210,190)"/>
+    <wire from="(260,110)" to="(280,110)"/>
+    <wire from="(190,130)" to="(200,130)"/>
+    <wire from="(60,80)" to="(70,80)"/>
+    <wire from="(190,130)" to="(190,190)"/>
+    <wire from="(60,130)" to="(190,130)"/>
+    <comp lib="1" loc="(170,60)" name="OR Gate">
+      <a name="inputs" val="2"/>
+      <a name="negate0" val="true"/>
+    </comp>
+    <comp lib="0" loc="(60,40)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="x"/>
+    </comp>
+    <comp lib="0" loc="(60,80)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="y"/>
+    </comp>
+    <comp lib="0" loc="(60,130)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="z"/>
+    </comp>
+    <comp lib="1" loc="(350,160)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(170,230)" name="OR Gate">
+      <a name="inputs" val="2"/>
+      <a name="negate0" val="true"/>
+    </comp>
+    <comp lib="0" loc="(370,160)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(260,210)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(260,110)" name="AND Gate">
+      <a name="inputs" val="2"/>
+      <a name="negate1" val="true"/>
     </comp>
   </circuit>
 </project>
