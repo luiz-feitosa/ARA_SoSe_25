@@ -40,5 +40,6 @@ Schaltungsdarstellung auf IEC-Standard umstellen:
 ### 8. Kurze Dokumentation von Logisim
 
 - Wahrheitstabelle einer Schaltung: **Project > Analyze Circuit > Table**
+- Clock aktivieren: **Simulate > Ticks Enabled**
 
 - Offizielle Dokumentation von Logisim: https://www.cburch.com/logisim/de/docs.html
